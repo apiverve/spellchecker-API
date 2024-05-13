@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/spellchecker",
+  "version": "1.0.0",
+  "description": "Spell Checker is a simple tool for checking spelling. It returns the corrected text.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/spellchecker-API.git"
+  },
+  "keywords": [
+    "spell checker"," spell check"," spell checker api"," spell check api"," spell checker tool"," spell check tool"," spell checker software"," spell check software"," spell checker service"," spell check service"," spell checker library"," spell check library"," spell checker sdk"," spell check sdk"," spell checker code"," spell check code"," spell checker script"," spell check script"," spell checker program"," spell check program"," spell checker application"," spell check application"," spell checker app"," spell check app"," spell checker utility"," spell check utility"," spell checker helper"," spell check helper"," spell checker helper tool"," spell check helper tool"," spell checker helper software"," spell check helper software"," spell checker helper service"," spell check helper service"," spell checker helper library"," spell check helper library"," spell checker helper sdk"," spell check helper sdk"," spell checker helper code"," spell check helper code"," spell checker helper script"," spell check helper script"," spell checker helper program"," spell check helper program"," spell checker helper application"," spell check helper application"," spell checker helper app"," spell check helper app"," spell checker helper tool"," spell check helper tool"," spell checker helper utility"," spell check helper utility"," spell checker helper"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/spellchecker-API/issues"
+  },
+  "homepage": "https://github.com/apiverve/spellchecker-API",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "chai": "^3.4.1",
+    "dotenv": "^2.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "3.3.2",
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  }
+}
