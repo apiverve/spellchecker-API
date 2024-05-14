@@ -11,7 +11,7 @@
     "url": "git+https://github.com/apiverve/spellchecker-API.git"
   },
   "keywords": [
-    "spell checker"," spell check"," spell checker api"," spell check api"," spell checker tool"," spell check tool"," spell checker software"," spell check software"," spell checker service"," spell check service"," spell checker library"," spell check library"," spell checker sdk"," spell check sdk"," spell checker code"," spell check code"," spell checker script"," spell check script"," spell checker program"," spell check program"," spell checker application"," spell check application"," spell checker app"," spell check app"," spell checker utility"," spell check utility"," spell checker helper"," spell check helper"," spell checker helper tool"," spell check helper tool"," spell checker helper software"," spell check helper software"," spell checker helper service"," spell check helper service"," spell checker helper library"," spell check helper library"," spell checker helper sdk"," spell check helper sdk"," spell checker helper code"," spell check helper code"," spell checker helper script"," spell check helper script"," spell checker helper program"," spell check helper program"," spell checker helper application"," spell check helper application"," spell checker helper app"," spell check helper app"," spell checker helper tool"," spell check helper tool"," spell checker helper utility"," spell check helper utility"," spell checker helper"
+    "spell checker","spell check","spell checker api","spell check api","spell checker tool"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
@@ -27,6 +27,6 @@
   "dependencies": {
     "node-fetch": "3.3.2",
     "promise": "^7.1.1",
-    "request": "^2.69.0"
+    "axios": "^0.15.3"
   }
 }
