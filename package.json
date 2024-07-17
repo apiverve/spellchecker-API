@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/spellchecker",
-  "version": "1.0.2",
-  "description": "Spell Checker is a simple tool for checking spelling. It returns the corrected text.",
+  "version": "1.0.3",
+  "description": "Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
