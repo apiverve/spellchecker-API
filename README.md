@@ -1,7 +1,7 @@
 Spell Checker API
 ============
 
-Spell Checker is a simple tool for checking spelling. It returns the corrected text.
+Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
