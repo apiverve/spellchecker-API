@@ -1,0 +1,89 @@
+openapi: 3.0.4
+info:
+  title: Spell Checker
+  description: Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.9
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+- url: https://api.apiverve.com/
+paths:
+  /v1/spellchecker:
+    post:
+      summary: Check Spelling
+      description: Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions
+      operationId: spellchecker
+      parameters: []
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: string
+                    description: data
+              example:
+                status: ok
+                error: 
+                data:
+                  spellPass: false
+                  mispellingsFound: 2
+                  corrections:
+                  - word: neeed
+                    suggestions:
+                    - needed
+                    - need
+                    - needy
+                    - Neel
+                    - needs
+                  - word: telephine
+                    suggestions:
+                    - telephone
+                    - telephoned
+                    - telephoner
+                    - telephones
+                    - telephony
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occured, try again later
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                text:
+                  type: string
+                  description: The text to check the spelling of
+                  example: I neeed to call my friend on telephine today!
+              required:
+              - text
+              example:
+                text: I neeed to call my friend on telephine today!
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+- api_key: []
