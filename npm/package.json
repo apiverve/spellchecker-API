@@ -1,0 +1,35 @@
+{
+  "name": "@apiverve/spellchecker",
+  "version": "1.1.12",
+  "description": "Spell Checker is a simple tool for checking spelling in a given body of text. It returns correction suggestions",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "mocha",
+    "example": "node examples/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/spellchecker-api.git",
+    "directory": "npm"
+  },
+  "keywords": [
+    "spell checker", "spell check", "spell checker api", "spell check api", "spell checker tool"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/spellchecker-api/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/spellchecker?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.13.2"
+  }
+}
